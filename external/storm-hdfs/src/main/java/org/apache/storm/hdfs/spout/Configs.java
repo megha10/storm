@@ -22,6 +22,7 @@ public class Configs {
   public static final String READER_TYPE = "hdfsspout.reader.type";        // Required - chose the file type being consumed
   public static final String TEXT = "text";
   public static final String SEQ = "seq";
+  public static final String ZIP = "zip";
 
   public static final String HDFS_URI = "hdfsspout.hdfs";                   // Required - HDFS name node
   public static final String SOURCE_DIR = "hdfsspout.source.dir";           // Required - dir from which to read files
